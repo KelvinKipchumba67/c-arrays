@@ -28,7 +28,7 @@ int main (){
 		grand_total =grand_total + prices[j]*quantity[j];
 	}	
 	// Table header
-    // setw(15) reserves 15 spaces.left aligns text to left, 'right' to right.
+    // setw(15) reserves 15 spaces.left aligns text to left,'right'to right.
     cout << left  << setw(20) << "Item Name"
          << right << setw(10) << "Price" 
          << right << setw(10) << "Qty" 
@@ -49,3 +49,4 @@ int main (){
 	return 0;
 
 }
+

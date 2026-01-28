@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <limits>//using it to remove buffering as the program accepts  input
+#include <limits>//using it to remove buffering as the program accepts input
 #include <iomanip>//using it for the printing the receipt at the end
 using namespace std;
 int main (){
@@ -47,4 +47,5 @@ int main (){
     cout << right << setw(40) << "Grand Total = " << grand_total << endl;
      
 	return 0;
+
 }
